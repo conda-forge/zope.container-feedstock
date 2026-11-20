@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "7.3"
+  version: "7.4"
   test_modules:
     - zope.container.tests.test_btree
     - zope.container.tests.test_compile_flags
@@ -24,7 +24,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/z/zope.container/zope_container-${{ version }}.tar.gz
-  sha256: b0f91a93507e2f97ef73b8d78bf97849663e355781c7e424e03ad4b9c5afa0e1
+  sha256: bb4af3207d52ba2972ec04d00fc2cf2c22dd9f2cfa99331cf4ba7e0aac09ec48
 
 build:
   number: 0
